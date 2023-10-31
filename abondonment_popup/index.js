@@ -38,6 +38,7 @@ scrollContainer.innerHTML = replacePlaceholders(attrybProductData, convertDomToS
 let popDownBtn = document.querySelector(".close")
 popDownBtn.addEventListener("click", () => {
     document.querySelector("#attryb-cart-002-popup-wrap").remove();
+    document.querySelector(".over-lay").remove();
 });
 
 //copy coupon code function
